@@ -1,0 +1,9 @@
+function computerPlay(computerSelection)
+{
+  
+return computerSelection[Math.floor(Math.random()*computerSelection.length)];
+     
+}
+
+var computerSelection = ["Rock", "Paper", "Scissors"];
+console.log(computerPlay(computerSelection));
